@@ -2,9 +2,9 @@
 Contributors: DimitriAus
 Tags: webp, media, image optimization, woocommerce
 Requires at least: 6.0
-Tested up to: 6.9
-Requires PHP: 7.2
-Stable tag: 1.0.3
+Tested up to: 7.0
+Requires PHP: 7.4
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -63,6 +63,9 @@ Yes. Enable Keep Originals in the tool before conversion.
 This plugin is primarily designed for WooCommerce stores. While the All Images mode covers the entire media library, the core workflow and Single Product mode are built around WooCommerce product images. More detailed guidance will be added in a future update.
 
 == Changelog ==
+
+= 1.0.4 =
+- Updated: Requires PHP bumped to 7.4 (WordPress 7.0 minimum); Tested up to 7.0.
 
 = 1.0.3 =
 - Fixed: Coding standards compliance (WordPress PHPCS).

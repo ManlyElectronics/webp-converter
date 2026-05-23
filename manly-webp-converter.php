@@ -2,24 +2,24 @@
 /**
  * Plugin Name: Manly WebP Converter
  * Description: Converts product images to WebP format, updates DB references, optionally deletes originals.
- * Version: 1.0.3
+ * Version: 1.0.4
  * Author: Manly Electronics
  * Author URI: https://manlyelectronics.com.au
  * License: GPL-2.0-or-later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: manly-webp-converter
- * Requires PHP: 7.2
+ * Requires PHP: 7.4
  *
  * @package  ManlyWebpConverter
  * @since    1.0.0
- * PHP Version 7.2
+ * PHP Version 7.4
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'MANLY_WEBP_CONVERTER_VERSION', '1.0.3' );
+define( 'MANLY_WEBP_CONVERTER_VERSION', '1.0.4' );
 define( 'MANLY_WEBP_CONVERTER_PATH', plugin_dir_path( __FILE__ ) );
 define( 'MANLY_WEBP_CONVERTER_URL', plugin_dir_url( __FILE__ ) );
 
